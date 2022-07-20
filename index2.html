@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise in class</title>
+
+    <style>
+
+        body{
+            background-image: url("https://i.pinimg.com/564x/c5/1b/8f/c51b8fb711931f5b5cd1092aed2a0986.jpg");
+            background-size: cover;
+        }
+
+        #hola{
+            width:500px;
+            height:50px;
+            background: #654ea3; 
+            background: -webkit-linear-gradient(to right, #654ea3, #eaafc8); 
+            background: linear-gradient(to right, #654ea3, #eaafc8);   
+
+        }
+
+    
+
+    </style>
+    <script type="text/javascript">
+        function mover()
+        {
+       document.getElementById("hola").innerHTML="Holaa Miss";
+       }
+       
+       
+       
+       
+        function mout()
+        {
+       document.getElementById("hola").innerHTML="La TKM <3";
+        }
+       </script>
+</head>
+<body>
+    <center>
+    <h1 id="hola">Coloca el puntero sobre la imagen</h1>
+
+    <tr>
+       <img src="https://i.pinimg.com/564x/e5/ce/ed/e5ceed838c028d6cffbcdf2fe2531f77.jpg" onmouseover="mover()" onmouseout="mout()" />
+    </tr>
+
+</center>
+</body>
+</html>
